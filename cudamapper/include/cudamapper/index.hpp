@@ -21,7 +21,7 @@ namespace claragenomics {
     class Index {
     public:
 
-        /// \brief representation, pointer to section of data arrays with sketch elements with that representation and a given read_id, and a pointer to section of data arrays with sketch elements with that representation and all read_ids
+        /// RepresentationToSketchElements - representation, pointer to section of data arrays with sketch elements with that representation and a given read_id, and a pointer to section of data arrays with sketch elements with that representation and all read_ids
         struct RepresentationToSketchElements {
             representation_t representation_;
             ArrayBlock sketch_elements_for_representation_and_read_id_;

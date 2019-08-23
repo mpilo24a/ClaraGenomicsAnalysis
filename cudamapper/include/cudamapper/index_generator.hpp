@@ -25,7 +25,7 @@ namespace claragenomics {
     class IndexGenerator {
         public:
 
-        /// \brief Representation and all sketch elements with that representation
+        /// RepresentationAndSketchElements - Representation and all sketch elements with that representation
         struct RepresentationAndSketchElements {
             representation_t representation_;
             std::vector<std::unique_ptr<SketchElement>> sketch_elements_;
